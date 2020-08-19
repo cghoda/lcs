@@ -1,0 +1,1 @@
+curl -X POST "http://localhost:8080/comcast/rest/service/lcs" -H "Content-Type: application/json" -H "Accept: application/json" -d "{\"setOfStrings\": [{\"value\":\"comcast\"},{\"value\":\"comcastic\"},{\"value\":\"broadcast\"}]}"
